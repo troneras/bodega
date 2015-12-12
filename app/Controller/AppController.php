@@ -31,5 +31,23 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-	public $components = array('DebugKit.Toolbar');
+	public $components = array('DebugKit.Toolbar','Session');
+
+
+	// Argumento: Model.field
+	function getEnumValues($ModelField){
+
+                // split input into Model and Fieldname
+                $m = explode('.', $ModelField);
+                if ($m[0] == $ModelField) {
+                        return false;
+                } else {                
+
+                        (! ClassRegistry::isKeySet($m[0])) ? $this->loadModel($m[0]): false;
+                        $type = $this->$m[0]->getColumnType($m[1]);
+                        preg_match_all("/'(.*?)'/", $type, $enums);
+                        foreach ($enums[1] as $value){$enumList[$value] = $value;}
+                        return $enumList;
+                }                
+        }
 }

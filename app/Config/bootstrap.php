@@ -92,7 +92,13 @@ Configure::write('Dispatcher.filters', array(
 	'AssetDispatcher',
 	'CacheDispatcher'
 ));
-
+// session 
+Configure::write('Session', array(
+    'defaults' => 'php',
+    'ini' => array(
+        'session.cookie_secure' => false
+    )
+));
 /**
  * Configures default file logging options
  */

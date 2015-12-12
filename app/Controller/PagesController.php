@@ -46,9 +46,6 @@ class PagesController extends AppController {
  *	or MissingViewException in debug mode.
  */
 	public function display() {
-		$test = array('coche' => 'rojo', 'tia' => 'buena' );
-	 
-		debug($test);
 		$path = func_get_args();
 
 		$count = count($path);
