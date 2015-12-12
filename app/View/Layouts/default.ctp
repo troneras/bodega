@@ -28,7 +28,16 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		// echo $this->Html->css('cake.generic');
+		echo $this->Html->css('bootstrap');
+		echo $this->Html->css('bootstrap-theme');
+		echo $this->Html->css('styles');
+		echo $this->Html->css('jquery-ui.structure');
+		echo $this->Html->css('jquery-ui');
+		echo $this->Html->css('jquery-ui.theme');
+		echo $this->Html->css('daterangepicker');
+
+		echo $this->Html->script(array('Chart','jquery-1.11.3.min','moment.min.js','daterangepicker','bootstrap.min','jquery-ui.min'));
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -36,17 +45,17 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
+	<div class="container">
+		<div id="header" class="row">
 			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
 		</div>
-		<div id="content">
+		<div id="content" class="row">
 
 			<?php echo $this->Session->flash(); ?>
-
+			
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<div id="footer">
+		<div id="footer" class="row">
 			<?php echo $this->Html->link(
 					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
 					'http://www.cakephp.org/',

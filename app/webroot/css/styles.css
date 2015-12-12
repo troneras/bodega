@@ -1,0 +1,12 @@
+.slider{
+	min-height: 430px;
+}
+form div{
+	clear:none !important;
+}
+.form-control{
+	width: initial;
+}
+#btn-submit{
+	text-align: center;
+}
