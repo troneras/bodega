@@ -1,12 +1,14 @@
 .slider{
-	min-height: 430px;
+	min-height: 440px;
 }
-form div{
-	clear:none !important;
-}
-.form-control{
-	width: initial;
-}
+
 #btn-submit{
+	text-align: center;
+}
+
+.pila{
+	margin-top: 1em !important;
+}
+form.#compare-form{
 	text-align: center;
 }

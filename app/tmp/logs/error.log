@@ -1,0 +1,652 @@
+2015-12-12 16:48:38 Error: [MissingControllerException] Controller class ProductController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductController',
+  'plugin' => NULL,
+)
+Request URL: /product
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-12 16:59:08 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\ProductsController.php, line 52]
+2015-12-12 16:59:08 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /products/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 52, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 52, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 16:59:25 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\ProductsController.php, line 52]
+2015-12-12 16:59:25 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /products/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 52, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 52, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 16:59:35 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\ProductsController.php, line 98]
+2015-12-12 16:59:35 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /products/delete/2
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 98)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 98, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 98, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 17:02:28 Error: [NotFoundException] Invalid product
+Request URL: /products/delete/2
+Stack Trace:
+#0 [internal function]: ProductsController->delete('2')
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-12 17:02:39 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\ProductsController.php, line 98]
+2015-12-12 17:02:39 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /products/delete/1
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 98)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 98, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 98, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 17:58:02 Error: Fatal Error (1): Call to a member function Model() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 60]
+2015-12-12 17:58:02 Error: [FatalErrorException] Call to a member function Model() on a non-object
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 60, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 60, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 17:58:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'getAll' at line 1
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getAll', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getAll', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getAll', Array, Array)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(808): DboSource->query('getAll', Array, Object(AppModel))
+#5 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(61): Model->__call('getAll', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(61): AppModel->getAll()
+#7 [internal function]: SalesController->add()
+#8 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-12 18:00:21 Error: [MissingTableException] Table clientes for model Clientes was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'clientes',
+  'class' => 'Clientes',
+  'ds' => 'default',
+)
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(3551): Model->setSource('clientes')
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(1461): Model->schema()
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(1448): Model->hasField('title', false)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(3114): Model->__get('displayField')
+#6 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(2979): Model->_findList('before', Array)
+#7 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(2914): Model->buildQuery('list', Array)
+#8 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(65): Model->find('list')
+#9 [internal function]: SalesController->add()
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#11 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#13 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-12-12 18:05:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 63]
+2015-12-12 18:05:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 63, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 63, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 18:13:59 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Users\Troneras\Documents\Bodega\app\View\Sales\add.ctp, line 8]
+2015-12-12 18:13:59 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Troner...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Troner...', 8, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Troner...', 8, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 18:23:48 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'getPacksWithProductName' at line 1
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getPacksWithPro...', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getPacksWithPro...', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getPacksWithPro...', Array, Array)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(808): DboSource->query('getPacksWithPro...', Array, Object(AppModel))
+#5 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(63): Model->__call('getPacksWithPro...', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(63): AppModel->getPacksWithProductName()
+#7 [internal function]: SalesController->add()
+#8 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-12 18:24:42 Error: Fatal Error (1): Call to a member function getPacksWithProductName() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 63]
+2015-12-12 18:24:42 Error: [FatalErrorException] Call to a member function getPacksWithProductName() on a non-object
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 63, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 63, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 18:25:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'getPacksWithProductName' at line 1
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getPacksWithPro...', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getPacksWithPro...', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getPacksWithPro...', Array, Array)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(808): DboSource->query('getPacksWithPro...', Array, Object(AppModel))
+#5 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(63): Model->__call('getPacksWithPro...', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(63): AppModel->getPacksWithProductName()
+#7 [internal function]: SalesController->add()
+#8 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-12 18:25:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'getPacksWithProductName' at line 1
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getPacksWithPro...', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getPacksWithPro...', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getPacksWithPro...', Array, Array)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(808): DboSource->query('getPacksWithPro...', Array, Object(AppModel))
+#5 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(63): Model->__call('getPacksWithPro...', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(63): AppModel->getPacksWithProductName()
+#7 [internal function]: SalesController->add()
+#8 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-12 18:33:48 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'getPacks' at line 1
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getPacks', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getPacks', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getPacks', Array, Array)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(808): DboSource->query('getPacks', Array, Object(AppModel))
+#5 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(63): Model->__call('getPacks', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(63): AppModel->getPacks()
+#7 [internal function]: SalesController->add()
+#8 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-12 18:38:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'getPacks' at line 1
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getPacks', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getPacks', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getPacks', Array, Array)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(808): DboSource->query('getPacks', Array, Object(AppModel))
+#5 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(64): Model->__call('getPacks', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(64): AppModel->getPacks()
+#7 [internal function]: SalesController->add()
+#8 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-12 18:38:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'getPacks' at line 1
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('getPacks', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('getPacks', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('getPacks', Array, Array)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(808): DboSource->query('getPacks', Array, Object(AppModel))
+#5 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(64): Model->__call('getPacks', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(64): AppModel->getPacks()
+#7 [internal function]: SalesController->add()
+#8 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-12 18:40:13 Error: Fatal Error (1): Call to undefined method SalesController::load() in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 50]
+2015-12-12 18:40:13 Error: [FatalErrorException] Call to undefined method SalesController::load()
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Troner...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Troner...', 50, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Troner...', 50, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 18:40:34 Error: Fatal Error (1): Call to undefined method SalesController::load() in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 50]
+2015-12-12 18:40:34 Error: [FatalErrorException] Call to undefined method SalesController::load()
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Troner...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Troner...', 50, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Troner...', 50, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 18:40:41 Error: Fatal Error (1): Call to undefined method SalesController::load() in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 50]
+2015-12-12 18:40:41 Error: [FatalErrorException] Call to undefined method SalesController::load()
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Troner...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Troner...', 50, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Troner...', 50, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 18:40:51 Error: Fatal Error (1): Call to undefined method SalesController::load() in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 50]
+2015-12-12 18:40:51 Error: [FatalErrorException] Call to undefined method SalesController::load()
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Troner...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Troner...', 50, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Troner...', 50, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 18:46:01 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 67]
+2015-12-12 18:46:01 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 67, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 67, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 18:54:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Packs.id_product' in 'where clause'
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pack`.`...', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pack`.`...', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pack`.`...', false)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Pack), Array)
+#5 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Model\Pack.php(76): Model->find('first', Array)
+#7 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(64): Pack->getPacks()
+#8 [internal function]: SalesController->add()
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#12 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-12-12 18:55:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Packs.product_id' in 'where clause'
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pack`.`...', Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pack`.`...', Array, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pack`.`...', false)
+#4 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Pack), Array)
+#5 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\Users\Troneras\Documents\Bodega\app\Model\Pack.php(76): Model->find('first', Array)
+#7 C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php(64): Pack->getPacks()
+#8 [internal function]: SalesController->add()
+#9 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#10 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#12 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-12-12 19:10:25 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Troneras\Documents\Bodega\app\View\Sales\add.ctp, line 19]
+2015-12-12 19:10:25 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Troner...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Troner...', 19, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Troner...', 19, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 19:17:29 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 54]
+2015-12-12 19:17:29 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 54, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 54, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 19:33:05 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 55]
+2015-12-12 19:33:05 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 55, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 55, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 19:34:56 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 55]
+2015-12-12 19:34:56 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 55, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 55, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 19:35:57 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 55]
+2015-12-12 19:35:57 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /sales/add
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Troner...', 55, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Troner...', 55, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 19:36:07 Error: [MissingControllerException] Controller class SaleController could not be found.
+Exception Attributes: array (
+  'class' => 'SaleController',
+  'plugin' => NULL,
+)
+Request URL: /sale
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-12 19:36:38 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [C:\Users\Troneras\Documents\Bodega\app\Controller\SalesController.php, line 18]
+2015-12-12 19:36:38 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+Request URL: /sales
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Troner...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Troner...', 18, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Troner...', 18, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 20:10:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Chart.js
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-12 20:10:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Chart.js
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-12 20:11:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Chart.js
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-12 23:12:46 Error: Fatal Error (1): Cannot access empty property in [C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php, line 437]
+2015-12-12 23:12:46 Error: [FatalErrorException] Cannot access empty property
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\\Users\\Troner...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\\Users\\Troner...', 437, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\\Users\\Troner...', 437, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 23:13:03 Error: Fatal Error (1): Cannot access empty property in [C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php, line 437]
+2015-12-12 23:13:03 Error: [FatalErrorException] Cannot access empty property
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\\Users\\Troner...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\\Users\\Troner...', 437, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\\Users\\Troner...', 437, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 23:13:20 Error: Fatal Error (1): Cannot access empty property in [C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php, line 437]
+2015-12-12 23:13:20 Error: [FatalErrorException] Cannot access empty property
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\\Users\\Troner...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\\Users\\Troner...', 437, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\\Users\\Troner...', 437, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-12 23:13:44 Error: Fatal Error (1): Cannot access empty property in [C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php, line 437]
+2015-12-12 23:13:44 Error: [FatalErrorException] Cannot access empty property
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\\Users\\Troner...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\\Users\\Troner...', 437, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\\Users\\Troner...', 437, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 00:15:30 Error: [MissingTableException] Table resumen for model Resuman was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'resumen',
+  'class' => 'Resuman',
+  'ds' => 'default',
+)
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(3551): Model->setSource('resumen')
+#1 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\Users\Troneras\Documents\Bodega\app\Controller\ResumenController.php(33): PaginatorComponent->paginate()
+#5 [internal function]: ResumenController->index()
+#6 C:\Users\Troneras\Documents\Bodega\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ResumenController), Array)
+#7 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\Troneras\Documents\Bodega\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ResumenController), Object(CakeRequest))
+#9 C:\Users\Troneras\Documents\Bodega\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-12-13 10:08:43 Error: Fatal Error (1): Cannot redeclare getPackName() (previously declared in C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp:98) in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 98]
+2015-12-13 10:08:43 Error: [FatalErrorException] Cannot redeclare getPackName() (previously declared in C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp:98)
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', 'C:\\Users\\Troner...', 98)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot redeclar...', 'C:\\Users\\Troner...', 98, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot redeclar...', 'C:\\Users\\Troner...', 98, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:09:35 Error: Fatal Error (1): Cannot redeclare getNombrePack() (previously declared in C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp:98) in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 98]
+2015-12-13 10:09:35 Error: [FatalErrorException] Cannot redeclare getNombrePack() (previously declared in C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp:98)
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', 'C:\\Users\\Troner...', 98)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot redeclar...', 'C:\\Users\\Troner...', 98, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot redeclar...', 'C:\\Users\\Troner...', 98, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:18:46 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 97]
+2015-12-13 10:18:46 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /resumen/index/sort:id_client/direction:asc
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Troner...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Troner...', 97, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Troner...', 97, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:20:44 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:20:44 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen/index/sort:id_client/direction:asc
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:20:56 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:20:56 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen/index/sort:id_client/direction:asc
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:21:05 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:21:05 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen/index
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:21:14 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:21:14 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen/index
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:21:23 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:21:23 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:21:32 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:21:32 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:21:54 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:21:54 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:22:34 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:22:34 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:22:46 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:22:46 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:22:55 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:22:55 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:23:04 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:23:04 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:23:46 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:23:46 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:23:55 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:23:55 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:24:13 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:24:13 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-13 10:24:22 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\Troneras\Documents\Bodega\app\View\Resumen\index.ctp, line 112]
+2015-12-13 10:24:22 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /resumen
+Stack Trace:
+#0 C:\Users\Troneras\Documents\Bodega\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#2 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\Troner...', 112, Array)
+#3 C:\Users\Troneras\Documents\Bodega\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -49,4 +49,15 @@ class Product extends AppModel {
 		)
 	);
 
+
+	public function getFamilias()
+	{
+		$vinos = $this->find('list',array(
+				'fields' => array(
+						'family'
+					)
+			));
+		return $vinos;
+	}
+
 }
